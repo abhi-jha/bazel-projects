@@ -1,0 +1,7 @@
+.idea
+.ijwb
+bazel-bin
+bazel-my-app
+bazel-out
+bazel-testlogs
+target
