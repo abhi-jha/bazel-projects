@@ -5,3 +5,4 @@ bazel-my-app
 bazel-out
 bazel-testlogs
 target
+.DS_Store
