@@ -1,0 +1,20 @@
+load("@python_deps//:requirements.bzl", "requirement")
+
+# py_library(
+#     name = "main",
+#     srcs = ["main.py"],
+#     deps = [
+#         ":myotherlib",
+#         requirement("some_pip_dep"),
+#         requirement("another_pip_dep"),
+#     ]
+# )
+
+py_binary(
+    name="main",
+    srcs=["main.py"],
+    deps=[
+        "//projects/calculator:calculator",
+        requirement("Flask")
+        ]
+)

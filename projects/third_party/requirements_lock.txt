@@ -1,0 +1,11 @@
+-i https://pypi.org/simple
+Flask==2.0.2
+itsdangerous==2.1.2
+click8
+werkzeug
+jinja2
+click
+importlib_metadata
+markupsafe
+typing_extensions
+zipp
