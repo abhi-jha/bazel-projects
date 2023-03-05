@@ -30,5 +30,6 @@ bazel run //projects/projectA:foo
 bazel build //projects/projectA:foo
 bazel build projects/projectA/...
 bazel build projects/projectA:foo
+bazel test projects/calculator/...
 
 

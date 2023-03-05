@@ -9,7 +9,7 @@ class TestSum(unittest.TestCase):
     
     def test_sum_failure(self):
         calculator = Calculator()
-        self.assertEqual(calculator.add(1,2), 4)
+        self.assertEqual(calculator.add(1,2), 3)
 
 if __name__=='__main__':
     unittest.main()
