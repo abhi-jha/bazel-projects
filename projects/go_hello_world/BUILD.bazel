@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name ="go_hello_world",
     srcs = ["hello_World.go"],
-    importpath = "github.com/abhi-jha/bazel-projects/projects/go_hello_world",
+    importpath = "github.com/kriscfoster/multi-language-bazel-monorepo/projects/go_hello_world",
     visibility = ["//visibility:public",]
 )
 
